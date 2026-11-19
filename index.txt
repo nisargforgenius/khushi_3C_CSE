@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A clean, responsive static website demonstrating deployment with GitHub Pages and Netlify.">
+  <meta name="theme-color" content="#0b1020">
+  <title>My Deployed Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Launchpad home">
+      <span class="brand-mark">L</span>
+      <span>launchpad<span class="brand-dot">.</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#deploy">Deployment</a>
+      <a href="#platforms">Platforms</a>
+    </nav>
+    <a class="header-cta" href="#deploy">Explore project <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="about">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> STATIC WEBSITE · LIVE DEMO</div>
+        <h1>Your website.<br><span>Out in the world.</span></h1>
+        <p class="hero-text">A simple static website, ready to publish. This project demonstrates how HTML and CSS can become a live website using free hosting platforms.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#deploy">See how it works <span aria-hidden="true">→</span></a>
+          <a class="text-link" href="#platforms">Explore hosting options</a>
+        </div>
+        <div class="hero-meta">
+          <div class="meta-avatars" aria-hidden="true"><span>H</span><span>C</span><span>W</span></div>
+          <span>Built with <strong>HTML + CSS</strong></span>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Website deployment illustration">
+        <div class="orbit orbit-large"></div>
+        <div class="orbit orbit-small"></div>
+        <div class="visual-glow"></div>
+        <div class="code-window">
+          <div class="window-top">
+            <div class="window-dots"><i></i><i></i><i></i></div>
+            <span>index.html</span>
+            <span class="window-lock">⌑</span>
+          </div>
+          <div class="code-content">
+            <div><span class="line-no">01</span><span class="code-purple">&lt;html</span> <span class="code-blue">lang</span>=<span class="code-green">"en"</span><span class="code-purple">&gt;</span></div>
+            <div><span class="line-no">02</span>  <span class="code-purple">&lt;head&gt;</span></div>
+            <div><span class="line-no">03</span>    <span class="code-purple">&lt;title&gt;</span>My Website<span class="code-purple">&lt;/title&gt;</span></div>
+            <div><span class="line-no">04</span>  <span class="code-purple">&lt;/head&gt;</span></div>
+            <div><span class="line-no">05</span>  <span class="code-purple">&lt;body&gt;</span></div>
+            <div><span class="line-no">06</span>    <span class="code-purple">&lt;h1&gt;</span><span class="code-white">Hello, internet!</span><span class="code-purple">&lt;/h1&gt;</span></div>
+            <div><span class="line-no">07</span>  <span class="code-purple">&lt;/body&gt;</span></div>
+            <div><span class="line-no">08</span><span class="code-purple">&lt;/html&gt;</span></div>
+          </div>
+          <div class="window-footer"><span class="footer-check">✓</span> All systems ready <span class="footer-lang">HTML</span></div>
+        </div>
+        <div class="deploy-card">
+          <div class="deploy-icon">↗</div>
+          <div><strong>Deployment complete</strong><small>Your site is ready to share</small></div>
+          <span class="deploy-check">✓</span>
+        </div>
+        <div class="floating-tag tag-html"> &lt;/&gt; HTML</div>
+        <div class="floating-tag tag-css">✳ CSS</div>
+      </div>
+    </section>
+
+    <section class="stats-strip" aria-label="Project highlights">
+      <div><strong>01</strong><span>Simple setup</span></div>
+      <div><strong>100%</strong><span>Static files</span></div>
+      <div><strong>FREE</strong><span>Hosting options</span></div>
+      <div><strong>∞</strong><span>Shareable access</span></div>
+    </section>
+
+    <section class="section intro-section">
+      <div class="section-kicker">THE IDEA</div>
+      <div class="section-heading-row">
+        <h2>From local files<br>to a live link.</h2>
+        <p>Deployment means publishing your website on the internet so anyone can open it through a URL. With static hosting, your HTML, CSS and JavaScript files are served directly to visitors.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <div class="feature-icon icon-purple">⌘</div>
+          <h3>Build locally</h3>
+          <p>Create your page with HTML and style it with CSS. Keep the files together in one project folder.</p>
+          <span class="feature-number">01 / BUILD</span>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon icon-blue">⇧</div>
+          <h3>Publish online</h3>
+          <p>Upload the project to a hosting platform. The platform makes your static files available on the web.</p>
+          <span class="feature-number">02 / DEPLOY</span>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon icon-green">↗</div>
+          <h3>Share the link</h3>
+          <p>Once deployment finishes, open the public URL and share your website with anyone.</p>
+          <span class="feature-number">03 / SHARE</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section deploy-section" id="deploy">
+      <div class="section-kicker">QUICK GUIDE</div>
+      <div class="section-heading-row">
+        <h2>Three steps to<br>get it online.</h2>
+        <p>Use GitHub Pages to host this project for free. Make sure the homepage file is named <code>index.html</code>.</p>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-marker">01</div>
+          <div class="timeline-content">
+            <div class="timeline-label">CREATE</div>
+            <h3>Make a public repository</h3>
+            <p>Sign in to GitHub and create a new public repository, for example <code>my-website</code>.</p>
+          </div>
+          <div class="timeline-art repo-art"><div class="repo-icon">⌂</div><span>my-website</span><small>Public repository</small></div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-marker">02</div>
+          <div class="timeline-content">
+            <div class="timeline-label">UPLOAD</div>
+            <h3>Add your website files</h3>
+            <p>Upload <code>index.html</code> and <code>style.css</code> to the root of the repository on the <code>main</code> branch.</p>
+          </div>
+          <div class="timeline-art file-art"><div class="file-chip">HTML <b>index.html</b></div><div class="file-chip css-chip">CSS <b>style.css</b></div></div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-marker">03</div>
+          <div class="timeline-content">
+            <div class="timeline-label">PUBLISH</div>
+            <h3>Enable GitHub Pages</h3>
+            <p>Open <strong>Settings → Pages</strong>, choose <code>main</code> as the branch and <code>/(root)</code> as the folder, then save.</p>
+          </div>
+          <div class="timeline-art publish-art"><span class="publish-check">✓</span><strong>Site is live</strong><small>Ready to visit</small></div>
+        </article>
+      </div>
+      <div class="url-note"><span class="url-icon">↗</span><div><strong>Your website URL</strong><code>https://username.github.io/my-website/</code></div><span class="url-hint">Example format</span></div>
+    </section>
+
+    <section class="section platforms-section" id="platforms">
+      <div class="section-kicker">HOSTING OPTIONS</div>
+      <div class="section-heading-row">
+        <h2>Choose where<br>to publish.</h2>
+        <p>Both options can host a static website. GitHub Pages connects to a repository; Netlify also supports manual drag-and-drop deployment.</p>
+      </div>
+      <div class="platform-grid">
+        <article class="platform-card github-card">
+          <div class="platform-top"><div class="platform-logo github-logo">GH</div><span class="platform-badge">RECOMMENDED FOR THIS PRACTICAL</span></div>
+          <h3>GitHub Pages</h3>
+          <p>Host directly from a GitHub repository. Ideal for simple project websites and portfolios.</p>
+          <ul><li>Free static website hosting</li><li>Deploy from a repository branch</li><li>Public URL in the format shown above</li></ul>
+          <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">Visit GitHub Pages <span>↗</span></a>
+        </article>
+        <article class="platform-card netlify-card">
+          <div class="platform-top"><div class="platform-logo netlify-logo">N</div><span class="platform-badge alternative-badge">ALTERNATIVE</span></div>
+          <h3>Netlify</h3>
+          <p>Publish a static site by connecting a repository or dragging and dropping your project folder.</p>
+          <ul><li>Free hosting option available</li><li>Manual drag-and-drop deployment</li><li>Provides a shareable site URL</li></ul>
+          <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">Visit Netlify <span>↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="success-banner">
+      <div class="success-orb">✓</div>
+      <div><div class="section-kicker">PROJECT COMPLETE</div><h2>Website deployed successfully!</h2><p>Your static website is ready to move from your computer to the internet.</p></div>
+      <a class="button button-light" href="#about">Back to top ↑</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="#"><span class="brand-mark">L</span><span>launchpad<span class="brand-dot">.</span></span></a>
+    <span>Author: <strong>Khushi Tathod</strong> · Class: <strong>3C</strong> · Built with HTML & CSS</span>
+    <a href="#about">Back to top ↑</a>
+  </footer>
+</body>
+</html>
